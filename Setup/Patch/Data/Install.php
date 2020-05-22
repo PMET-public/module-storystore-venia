@@ -21,16 +21,8 @@ class Install implements DataPatchInterface
 
     public function apply()
     {
-       $this->process->loadFiles(['StoryStore_Venia::fixtures/categories.csv',
-            'StoryStore_Venia::fixtures/stores.csv',
-            'StoryStore_Venia::fixtures/product_attributes.csv',
-            'StoryStore_Venia::fixtures/products.csv',
-            'StoryStore_Venia::fixtures/blocks.csv',
-            'StoryStore_Venia::fixtures/dynamic_blocks.csv',
-            'StoryStore_Venia::fixtures/pages.csv',
-            'StoryStore_Venia::fixtures/config.json',
-            'StoryStore_Venia::fixtures/config.csv',
-            'StoryStore_Venia::fixtures/customers.csv']);
+       $this->process->loadFiles('StoryStore_Venia');
+       //$r=$t;
     }
 
     public static function getDependencies()

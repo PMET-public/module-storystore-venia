@@ -3,14 +3,14 @@ Description Extra,textarea,0,,,description_extra,1,,0,,,0,0,0,0,0,0,,0,1,0,0,0,"
 Dresses
 Fashion Tops
 Fashion Bottoms"
-"Color
-Fashion Color",select,0,"Gold
+"Fashion Color
+Color",select,0,"Gold
 Silver",,fashion_color,1,,0,,,0,1,1,1,1,1,,0,1,0,1,0,"Fashion Accessories
 Dresses
 Fashion Tops
 Fashion Bottoms"
-"Material
-Fashion Material",multiselect,0,"14K Gold
+"Fashion Material
+Material",multiselect,0,"14K Gold
 Sterling Silver",,fashion_material,1,,0,,,0,1,1,1,1,1,,1,1,0,1,0,"Fashion Accessories
 Dresses
 Fashion Tops
@@ -19,8 +19,8 @@ Description Extra,textarea,0,,,description_extra,1,,0,,,0,0,0,0,0,0,,0,1,0,0,0,"
 Dresses
 Fashion Tops
 Fashion Bottoms"
-"Color
-Fashion Color",select,0,"Peach
+"Fashion Color
+Color",select,0,"Peach
 Khaki
 Lilac
 Rain
@@ -33,8 +33,8 @@ Cocoa",,fashion_color,1,,0,,,0,1,1,1,1,1,,0,1,0,1,0,"Fashion Accessories
 Dresses
 Fashion Tops
 Fashion Bottoms"
-"Size
-Fashion Size",select,0,"L
+"Fashion Size
+Size",select,0,"L
 M
 S
 XS
@@ -47,12 +47,8 @@ XS
 Dresses
 Fashion Tops
 Fashion Bottoms"
-Video File,text,0,,,video_file,1,,0,,,0,0,0,0,0,0,,0,1,0,1,0,"Fashion Accessories
-Dresses
-Fashion Tops
-Fashion Bottoms"
-"Material
-Fashion Material",multiselect,0,"14K Gold
+"Fashion Material
+Material",multiselect,0,"14K Gold
 Acrylic
 Cashmere
 Cotton
@@ -70,8 +66,8 @@ Wool",,fashion_material,1,,0,,,0,1,1,1,1,1,,1,1,0,1,0,"Fashion Accessories
 Dresses
 Fashion Tops
 Fashion Bottoms"
-"Style
-Fashion Style",multiselect,0,"Above Knee
+"Fashion Style
+Style",multiselect,0,"Above Knee
 Below Knee
 Ankle Length
 Halter Top
@@ -95,9 +91,5 @@ Infinity
 Braided
 Lasercut
 Woven",,fashion_style,1,,0,,,0,1,1,1,1,1,,1,1,0,1,0,"Dresses
-Fashion Tops
-Fashion Bottoms"
-Has Video,boolean,0,,,has_video,1,,0,,,0,1,1,1,1,1,,1,1,0,1,0,"Fashion Accessories
-Dresses
 Fashion Tops
 Fashion Bottoms"
